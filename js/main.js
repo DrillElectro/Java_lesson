@@ -27,9 +27,57 @@
 
 
 //массивы
-var arr = [2, 11, "tr", -7, 0.4];
-console.log(arr.length);
+// var arr = [2, 11, "tr", -7, 0.4];
+// console.log(arr.length);
 
-var matrix = [[0,2], ["stroka", 0.5], [-4, 555]];
-matrix[1][0] = 90;
-console.log(matrix);
+// var matrix = [[0,2], ["stroka", 0.5], [-4, 555]];
+// matrix[1][0] = 90;
+// console.log(matrix);
+
+//цыклы
+// for (let index = 0; index < 10; index++) {
+//     console.log(index);    
+// }
+
+// var j = 1000;
+
+// while (j >= 100) {
+//     console.log(j);
+//     j -= 100;
+// }
+
+// var x = 0;
+// do {
+//     console.log(x);
+//     x++;
+// } while (x < 10) { //проверяется после выполнеия инструкции
+    
+// }
+
+// for (var i = 10; i <= 20; i++) {
+//     if (i % 2 == 0) 
+//         continue;
+
+//         console.log(i);        
+// }
+
+
+//Всплывающие окна (alert, prompt, confirm)
+// alert("АУФ!");
+
+// var date = confirm("AUF?");
+// if(date == true) {
+//     console.log("ok")
+// }
+// else console.log("ne ok")
+
+// var date = prompt("Сколько ауф?", 20);
+
+// console.log(date)
+
+
+var pers = null;
+if (confirm("АУФ?")) {
+    pers = prompt("Сколько ауф?");
+    alert("ауфов " + pers);    
+}else ("Не ауф");
